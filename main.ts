@@ -1,6 +1,6 @@
 let temperatura = 0
 basic.showString("Remoto")
-radio.setGroup(20)
+radio.setGroup(21)
 basic.forever(function () {
     temperatura = input.temperature()
     radio.sendNumber(temperatura)
